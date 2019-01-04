@@ -15,7 +15,7 @@ fooDb.update(dataId, {i: 10}).then(data => {
   console.log(data) // {title: 'db', i: 10, b: false}
 }) 
 
-fooDb.search({i > 5}).then(datas => {
+fooDb.search({i: 10}).then(datas => {
   console.log(datas) // [{title: 'db', i: 10, b: false}]
 })
 
